@@ -1,0 +1,3267 @@
+<log>
+<log-entry serial='14009'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836527'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>evtlog</type>
+<class></class>
+<object></object>
+<level num='6'>info</level>
+<transaction-type></transaction-type>
+<transaction>0</transaction>
+<client></client>
+<code>0x00000000</code>
+<file></file>
+<message>Log has been archived successfully</message>
+</log-entry>
+<log-entry serial='14010'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836527'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14011'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836528'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14012'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836528'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.48 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14013'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836528'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14014'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836528'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.48:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14015'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836528'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14016'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836528'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14017'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836528'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.55 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14018'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836528'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14019'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836528'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.55:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14020'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464836528'>10:20:36</time>
+<date-time>2015-11-25T10:20:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14021'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464865057'>10:21:05</time>
+<date-time>2015-11-25T10:21:05</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>99017</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14022'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464865799'>10:21:05</time>
+<date-time>2015-11-25T10:21:05</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>99097</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14023'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464882816'>10:21:22</time>
+<date-time>2015-11-25T10:21:22</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>982849</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/transactionData/transactionDataPage
+			]
+		</message>
+</log-entry>
+<log-entry serial='14024'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464885176'>10:21:25</time>
+<date-time>2015-11-25T10:21:25</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>602189</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14025'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464885294'>10:21:25</time>
+<date-time>2015-11-25T10:21:25</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983105</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/data/getAllPubDataByJson
+			]
+		</message>
+</log-entry>
+<log-entry serial='14026'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464896753'>10:21:36</time>
+<date-time>2015-11-25T10:21:36</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>128565</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/data/getAllPubDataByJson
+			]
+		</message>
+</log-entry>
+<log-entry serial='14027'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464901251'>10:21:41</time>
+<date-time>2015-11-25T10:21:41</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983281</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/data/getAllPubDataByJson
+			]
+		</message>
+</log-entry>
+<log-entry serial='14028'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464902874'>10:21:42</time>
+<date-time>2015-11-25T10:21:42</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>128597</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/data/getAllPubDataByJson
+			]
+		</message>
+</log-entry>
+<log-entry serial='14029'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464904180'>10:21:44</time>
+<date-time>2015-11-25T10:21:44</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983297</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/data/getAllPubDataByJson
+			]
+		</message>
+</log-entry>
+<log-entry serial='14030'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464914003'>10:21:54</time>
+<date-time>2015-11-25T10:21:54</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983313</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/transactionData/detailPage?data_id=6622c79d-1f31-4ee7-9e6a-fdd721fda2b9&amp;amp;dataType=1&amp;amp;code=0105000000&amp;amp;codename=%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF
+			]
+		</message>
+</log-entry>
+<log-entry serial='14031'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464914935'>10:21:54</time>
+<date-time>2015-11-25T10:21:54</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>843975</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14032'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464922269'>10:22:02</time>
+<date-time>2015-11-25T10:22:02</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>844007</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14033'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464922364'>10:22:02</time>
+<date-time>2015-11-25T10:22:02</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983409</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/data/getAllPubDataByJson
+			]
+		</message>
+</log-entry>
+<log-entry serial='14034'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464925135'>10:22:05</time>
+<date-time>2015-11-25T10:22:05</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983425</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/data/getAllPubDataByJson
+			]
+		</message>
+</log-entry>
+<log-entry serial='14035'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464935643'>10:22:15</time>
+<date-time>2015-11-25T10:22:15</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983441</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/data/getAllPubDataByJson
+			]
+		</message>
+</log-entry>
+<log-entry serial='14036'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464939002'>10:22:19</time>
+<date-time>2015-11-25T10:22:19</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983457</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/app/selectbyquery
+			]
+		</message>
+</log-entry>
+<log-entry serial='14037'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464940538'>10:22:20</time>
+<date-time>2015-11-25T10:22:20</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>602829</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14038'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464952708'>10:22:32</time>
+<date-time>2015-11-25T10:22:32</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983793</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/app/appdetails?id=36&amp;amp;paystatus=1&amp;amp;categoryId=
+			]
+		</message>
+</log-entry>
+<log-entry serial='14039'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464953116'>10:22:33</time>
+<date-time>2015-11-25T10:22:33</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983889</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/app/json/changeContents
+			]
+		</message>
+</log-entry>
+<log-entry serial='14040'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464954035'>10:22:34</time>
+<date-time>2015-11-25T10:22:34</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983665</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/app/json/changeContents
+			]
+		</message>
+</log-entry>
+<log-entry serial='14041'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464954036'>10:22:34</time>
+<date-time>2015-11-25T10:22:34</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>983937</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/app/json/checkcollection
+			]
+		</message>
+</log-entry>
+<log-entry serial='14042'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448464957136'>10:22:37</time>
+<date-time>2015-11-25T10:22:37</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>844471</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14043'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016557'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14044'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016557'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.54 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14045'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016557'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14046'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016557'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.54:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14047'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016557'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14048'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016557'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14049'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016557'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.48 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14050'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016557'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14051'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016558'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.48:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14052'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016558'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14053'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016558'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14054'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016558'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.55 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14055'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016558'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14056'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016558'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.55:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14057'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465016558'>10:23:36</time>
+<date-time>2015-11-25T10:23:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14058'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465019566'>10:23:39</time>
+<date-time>2015-11-25T10:23:39</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>603693</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14059'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465019671'>10:23:39</time>
+<date-time>2015-11-25T10:23:39</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>984257</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/data/getAllPubDataByJson
+			]
+		</message>
+</log-entry>
+<log-entry serial='14060'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465023372'>10:23:43</time>
+<date-time>2015-11-25T10:23:43</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>845351</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/factory/toFactory
+			]
+		</message>
+</log-entry>
+<log-entry serial='14061'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465032816'>10:23:52</time>
+<date-time>2015-11-25T10:23:52</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>984273</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/toCustom
+			]
+		</message>
+</log-entry>
+<log-entry serial='14062'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465033087'>10:23:53</time>
+<date-time>2015-11-25T10:23:53</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>984561</transaction>
+<client>183.129.158.130</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14063'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465189370'>10:26:29</time>
+<date-time>2015-11-25T10:26:29</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>603869</transaction>
+<client>220.181.108.105</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://youedata.com:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14064'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196579'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14065'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196579'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.54 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14066'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196579'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14067'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196579'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.54:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14068'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196579'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14069'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196580'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14070'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196580'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.48 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14071'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196580'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14072'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196580'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.48:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14073'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196580'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14074'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196580'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14075'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196580'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.55 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14076'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196580'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14077'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196580'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.55:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14078'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465196580'>10:26:36</time>
+<date-time>2015-11-25T10:26:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14079'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465203002'>10:26:43</time>
+<date-time>2015-11-25T10:26:43</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>603853</transaction>
+<client>123.125.71.90</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://youedata.com:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14080'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465285825'>10:28:05</time>
+<date-time>2015-11-25T10:28:05</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>603901</transaction>
+<client>118.194.194.226</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14081'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465286707'>10:28:06</time>
+<date-time>2015-11-25T10:28:06</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>984593</transaction>
+<client>118.194.194.226</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14082'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465300665'>10:28:20</time>
+<date-time>2015-11-25T10:28:20</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>603949</transaction>
+<client>163.177.69.38</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/transactionData/detailPage?data_id=698f03c1-9ca9-4014-9815-42dcf60a83b9&amp;amp;dataType=1
+			]
+		</message>
+</log-entry>
+<log-entry serial='14083'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376688'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14084'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376688'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.54 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14085'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376688'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14086'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376688'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.54:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14087'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376688'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14088'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376689'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14089'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376689'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.48 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14090'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376689'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14091'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376689'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.48:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14092'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376689'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14093'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376689'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14094'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376689'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.55 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14095'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376689'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14096'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376689'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.55:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14097'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465376689'>10:29:36</time>
+<date-time>2015-11-25T10:29:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14098'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556727'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14099'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556727'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.54 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14100'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556727'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14101'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556727'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.54:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14102'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556727'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14103'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556728'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14104'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556728'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.48 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14105'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556728'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14106'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556728'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.48:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14107'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556728'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14108'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556728'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14109'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556728'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.55 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14110'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556729'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14111'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556729'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.55:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14112'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465556729'>10:32:36</time>
+<date-time>2015-11-25T10:32:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14113'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736848'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14114'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736848'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.54 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14115'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736848'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14116'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736848'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.54:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14117'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736848'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14118'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736848'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14119'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736848'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.48 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14120'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736848'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14121'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736849'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.48:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14122'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736849'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14123'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736849'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14124'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736849'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.55 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14125'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736849'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14126'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736849'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.55:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14127'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465736849'>10:35:36</time>
+<date-time>2015-11-25T10:35:36</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14128'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917432'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14129'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917432'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.54 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14130'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917432'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14131'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917432'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.54:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14132'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917432'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14133'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917433'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14134'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917433'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.48 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14135'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917433'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14136'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917433'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.48:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14137'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917433'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14138'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917434'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14139'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917434'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.55 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14140'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917434'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14141'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917434'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.55:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14142'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465917434'>10:38:37</time>
+<date-time>2015-11-25T10:38:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14143'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465992233'>10:39:52</time>
+<date-time>2015-11-25T10:39:52</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>604365</transaction>
+<client>114.255.20.9</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14144'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448465993758'>10:39:53</time>
+<date-time>2015-11-25T10:39:53</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>604861</transaction>
+<client>114.255.20.9</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14145'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466003775'>10:40:03</time>
+<date-time>2015-11-25T10:40:03</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>606045</transaction>
+<client>58.215.12.66</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14146'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466004532'>10:40:04</time>
+<date-time>2015-11-25T10:40:04</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>988193</transaction>
+<client>58.215.12.66</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14147'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466053597'>10:40:53</time>
+<date-time>2015-11-25T10:40:53</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>989233</transaction>
+<client>220.181.51.41</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14148'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466055245'>10:40:55</time>
+<date-time>2015-11-25T10:40:55</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>130341</transaction>
+<client>220.181.51.41</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14149'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466077315'>10:41:17</time>
+<date-time>2015-11-25T10:41:17</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>989457</transaction>
+<client>220.112.235.36</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/toHelp?key=6
+			]
+		</message>
+</log-entry>
+<log-entry serial='14150'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466077930'>10:41:17</time>
+<date-time>2015-11-25T10:41:17</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>989521</transaction>
+<client>220.112.235.36</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://www.youedata.com:80/json/selectPageImg
+			]
+		</message>
+</log-entry>
+<log-entry serial='14151'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097516'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14152'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097516'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.54 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14153'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097516'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14154'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097516'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.54:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14155'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097516'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.54:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14156'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097517'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14157'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097517'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.48 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14158'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097517'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14159'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097517'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.48:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14160'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097517'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.48:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14161'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097517'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x00b30009</code>
+<file></file>
+<message>Host connection could not be established</message>
+</log-entry>
+<log-entry serial='14162'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097517'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>xmlmgr</class>
+<object>test_jie</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00049</code>
+<file></file>
+<message>Host connection failed to establish: 192.168.0.55 : tcp port 80</message>
+</log-entry>
+<log-entry serial='14163'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097517'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e00627</code>
+<file></file>
+<message>Error occurred (port error) when connecting to URL &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14164'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097517'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>multistep</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type>lbhealth</transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80c00074</code>
+<file></file>
+<message>External URL: &apos;http://192.168.0.55:80/usersManager&apos; unreachable.</message>
+</log-entry>
+<log-entry serial='14165'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466097518'>10:41:37</time>
+<date-time>2015-11-25T10:41:37</date-time>
+<type>network</type>
+<class>loadbalancer-group</class>
+<object>web1</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>19407</transaction>
+<client></client>
+<code>0x80e0004e</code>
+<file></file>
+<message>Standard health check failed - server down &apos;http://192.168.0.55:80/usersManager&apos;</message>
+</log-entry>
+<log-entry serial='14166'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466180489'>10:43:00</time>
+<date-time>2015-11-25T10:43:00</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>991393</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14167'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466180578'>10:43:00</time>
+<date-time>2015-11-25T10:43:00</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991393</transaction>
+<client>203.207.224.110</client>
+<code>0x80e005f2</code>
+<file></file>
+<message>Connection error, URL: http://192.168.10.18:8080/.</message>
+</log-entry>
+<log-entry serial='14168'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466180578'>10:43:00</time>
+<date-time>2015-11-25T10:43:00</date-time>
+<type>multistep</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991393</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14169'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466180578'>10:43:00</time>
+<date-time>2015-11-25T10:43:00</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type>error</transaction-type>
+<transaction>991393</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14170'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466180616'>10:43:00</time>
+<date-time>2015-11-25T10:43:00</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>991409</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14171'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466180758'>10:43:00</time>
+<date-time>2015-11-25T10:43:00</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>991425</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14172'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466180854'>10:43:00</time>
+<date-time>2015-11-25T10:43:00</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991425</transaction>
+<client>203.207.224.110</client>
+<code>0x80e005f2</code>
+<file></file>
+<message>Connection error, URL: http://192.168.10.18:8080/.</message>
+</log-entry>
+<log-entry serial='14173'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466180854'>10:43:00</time>
+<date-time>2015-11-25T10:43:00</date-time>
+<type>multistep</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991425</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14174'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466180854'>10:43:00</time>
+<date-time>2015-11-25T10:43:00</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type>error</transaction-type>
+<transaction>991425</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14175'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466180865'>10:43:00</time>
+<date-time>2015-11-25T10:43:00</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>991441</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14176'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183008'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>991553</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14177'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183021'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>991585</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14178'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183035'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>991601</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14179'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183125'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>network</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991553</transaction>
+<client>203.207.224.110</client>
+<code>0x80e003a4</code>
+<file></file>
+<message>Error occured while writing to next processing stage.</message>
+</log-entry>
+<log-entry serial='14180'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183125'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>network</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991553</transaction>
+<client>203.207.224.110</client>
+<code>0x80e0070e</code>
+<file></file>
+<message>Error in stream (480). Local(203.207.196.237:80) - Remote(203.207.224.110:55776). Additional information: Write error (8) Broken pipe (32)</message>
+</log-entry>
+<log-entry serial='14181'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183125'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991553</transaction>
+<client>203.207.224.110</client>
+<code>0x80e005f2</code>
+<file></file>
+<message>Connection error, URL: http://192.168.10.18:8080/.</message>
+</log-entry>
+<log-entry serial='14182'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183125'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>multistep</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991553</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14183'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183125'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type>error</transaction-type>
+<transaction>991553</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14184'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183126'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>network</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991585</transaction>
+<client>203.207.224.110</client>
+<code>0x80e003a4</code>
+<file></file>
+<message>Error occured while writing to next processing stage.</message>
+</log-entry>
+<log-entry serial='14185'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183126'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>network</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991585</transaction>
+<client>203.207.224.110</client>
+<code>0x80e0070e</code>
+<file></file>
+<message>Error in stream (489). Local(203.207.196.237:80) - Remote(203.207.224.110:55778). Additional information: Write error (8) Broken pipe (32)</message>
+</log-entry>
+<log-entry serial='14186'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183126'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991585</transaction>
+<client>203.207.224.110</client>
+<code>0x80e005f2</code>
+<file></file>
+<message>Connection error, URL: http://192.168.10.18:8080/.</message>
+</log-entry>
+<log-entry serial='14187'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183126'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>multistep</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991585</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14188'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183126'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type>error</transaction-type>
+<transaction>991585</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14189'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183133'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>991569</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14190'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183135'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>network</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991601</transaction>
+<client>203.207.224.110</client>
+<code>0x80e003a4</code>
+<file></file>
+<message>Error occured while writing to next processing stage.</message>
+</log-entry>
+<log-entry serial='14191'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183135'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>network</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991601</transaction>
+<client>203.207.224.110</client>
+<code>0x80e0070e</code>
+<file></file>
+<message>Error in stream (498). Local(203.207.196.237:80) - Remote(203.207.224.110:55783). Additional information: Write error (8) Broken pipe (32)</message>
+</log-entry>
+<log-entry serial='14192'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183135'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991601</transaction>
+<client>203.207.224.110</client>
+<code>0x80e005f2</code>
+<file></file>
+<message>Connection error, URL: http://192.168.10.18:8080/.</message>
+</log-entry>
+<log-entry serial='14193'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183135'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>multistep</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>991601</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14194'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183135'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type>error</transaction-type>
+<transaction>991601</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14195'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183265'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>854167</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14196'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466183673'>10:43:03</time>
+<date-time>2015-11-25T10:43:03</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>991729</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14197'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188099'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>992065</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14198'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188102'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>992049</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14199'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188117'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>youedataAudit</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='5'>notice</level>
+<transaction-type>request</transaction-type>
+<transaction>992017</transaction>
+<client>203.207.224.110</client>
+<code>0x80000001</code>
+<file></file>
+<message>
+			
+			URL:[
+			http://203.207.196.237:80/
+			]
+		</message>
+</log-entry>
+<log-entry serial='14200'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188207'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>network</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>992065</transaction>
+<client>203.207.224.110</client>
+<code>0x80e003a4</code>
+<file></file>
+<message>Error occured while writing to next processing stage.</message>
+</log-entry>
+<log-entry serial='14201'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188207'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>network</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>992065</transaction>
+<client>203.207.224.110</client>
+<code>0x80e0070e</code>
+<file></file>
+<message>Error in stream (489). Local(203.207.196.237:80) - Remote(203.207.224.110:55793). Additional information: Write error (8) Broken pipe (32)</message>
+</log-entry>
+<log-entry serial='14202'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188207'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>992065</transaction>
+<client>203.207.224.110</client>
+<code>0x80e005f2</code>
+<file></file>
+<message>Connection error, URL: http://192.168.10.18:8080/.</message>
+</log-entry>
+<log-entry serial='14203'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188207'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>multistep</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>992065</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14204'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188207'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type>error</transaction-type>
+<transaction>992065</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+<log-entry serial='14205'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188209'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>network</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>992049</transaction>
+<client>203.207.224.110</client>
+<code>0x80e003a4</code>
+<file></file>
+<message>Error occured while writing to next processing stage.</message>
+</log-entry>
+<log-entry serial='14206'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188209'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>network</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>992049</transaction>
+<client>203.207.224.110</client>
+<code>0x80e0070e</code>
+<file></file>
+<message>Error in stream (487). Local(203.207.196.237:80) - Remote(203.207.224.110:55792). Additional information: Write error (8) Broken pipe (32)</message>
+</log-entry>
+<log-entry serial='14207'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188209'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>xmlfirewall</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>992049</transaction>
+<client>203.207.224.110</client>
+<code>0x80e005f2</code>
+<file></file>
+<message>Connection error, URL: http://192.168.10.18:8080/.</message>
+</log-entry>
+<log-entry serial='14208'>
+<date>Wed Nov 25 2015</date>
+<time utc='1448466188209'>10:43:08</time>
+<date-time>2015-11-25T10:43:08</date-time>
+<type>multistep</type>
+<class>xmlfirewall</class>
+<object>HttpFirewall</object>
+<level num='3'>error</level>
+<transaction-type></transaction-type>
+<transaction>992049</transaction>
+<client>203.207.224.110</client>
+<code>0x0113001c</code>
+<file></file>
+<message>Connection error</message>
+</log-entry>
+</log>

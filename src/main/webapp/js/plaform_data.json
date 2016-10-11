@@ -1,0 +1,52 @@
+[
+    {    
+    "id": 1,    
+    "text": "服务级别 ",    
+    "state": "open " ,
+     "attributes":{    
+            "url":"./viewMenu/goserviceType.do",    
+            "price":100    
+        }    
+    },
+    {    
+    "id": 2,    
+    "text": "数据类型 ",        
+    "state": "open " ,
+     "attributes":{    
+            "url":"./viewMenu/goDataType.do",    
+            "price":100    
+        }    
+    },{    
+    "id": 3,    
+    "text": "用户类型 ",   
+    "state": "open " ,
+     "attributes":{    
+            "url":"./viewMenu/gouserType.do",    
+            "price":100    
+        }    
+    },{    
+    "id": 4,    
+    "text": "图集类型",   
+    "state": "open " ,
+     "attributes":{    
+            "url":"./viewMenu/goatlasType.do",    
+            "price":100    
+        }    
+    },{    
+    "id": 5,    
+    "text": "应用类型",   
+    "state": "open " ,
+     "attributes":{    
+            "url":"./viewMenu/goappType.do",    
+            "price":100    
+        }    
+    },{    
+    "id": 6,    
+    "text": "产品类型",   
+    "state": "open " ,
+     "attributes":{    
+            "url":"./viewMenu/goproductionType.do",    
+            "price":100    
+        }    
+    }
+    ] 

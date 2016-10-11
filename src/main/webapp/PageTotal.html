@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>当前累计</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+
+<link id="easyuiTheme_tab" rel="stylesheet"
+	href="css/themes/metro-blue/easyui.css" type="text/css"></link>
+<link rel="stylesheet" href="css/icon.css" type="text/css"></link>
+<link rel="stylesheet" href="css/Base.css" type="text/css"></link>
+<link rel="stylesheet" href="css/index.css" type="text/css"></link>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="js/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/anychart.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/audiHead.js"></script>
+<script type="text/javascript" src="js/PageTotal.js"></script>
+<script type="text/javascript">
+
+$(function(){
+var username = $.cookie('username');
+if(username == null   ) {
+FMG.goLogin();
+}else{
+$("#uZone").html(' <h3>|  欢迎您:['+username+'] | <a href="javascript:void(0)" onclick="FMG.logOut();";> 注销  </a> |</h3> ');
+}
+});
+
+</script>
+</head>
+
+<body>
+	<header><div id="uZone" ></div> </header>
+	<div id="audit_systembox"></div>
+	
+
+	<div class="audit_main  audite_body" id="audite_body">
+		<div id="cc" class="audit_m_cc easyui-layout">
+<!-- east -->
+			<div data-options="region:'east',collapsible:false,title:'本年累计页面访问数统计',split:true"
+				style="width:420px;height: 611px;padding:0px;overflow: hidden;">
+				<div id="thisyear_east_tt"  data-options="fit:true,border:false" style="width:420px;height:611px;"> 
+				
+				
+				
+				
+				<div title="按页面" data-options="iconCls:'icon-reload',closable:false" style="width: 100%;height: 100%;">
+				
+				
+				<div class="east_up" id="thisyear_page_east_up" style="width: 100%;height: 255px;">
+					<div class='container'id='thisyear_page_container' style="width: 100%;height: 100%;"></div>
+				</div>
+				
+				
+				<div class="east_down" id="thisyear_page_east_down" style="width: 100%;height:255px;">
+					<table id="thisyear_page_datagrid"></table>
+				</div>
+				</div><!-- 今年服务类型 -->			
+				
+				
+				
+				
+					<div title="按栏目" data-options="iconCls:'icon-reload',closable:false" style="width: 100%;height: 100%;">
+				<div class="east_up" id="thisyear_bmodule_east_up" style="width: 100%;height: 255px;" >
+					<div class='total_container'
+						id='thisyear_bmodule_container' style="width: 100%;height: 100%;"></div>
+				</div>
+				<div class="east_down" id="thisyear_bmodule_east_down" style="width: 100%;height:255px;">
+					<table id="thisyear_bmodule_datagrid"></table>
+				</div></div><!-- 今年服务级别 -->
+				
+					<div title="按访问用户" data-options="iconCls:'icon-reload',closable:false" style="width: 100%;height: 100%;">
+				<div class="east_up" id="thisyear_servicevisitor_east_up" style="width: 100%;height: 255px;" >
+					<div class='total_container'
+						id='thisyear_servicevisitor_container' style="width: 100%;height: 100%;"></div>
+				</div>
+				<div class="east_down" id="thisyear_servicevisitor_east_down" style="width: 100%;height:255px;">
+					<table id="thisyear_servicevisitor_datagrid"></table>
+				</div></div><!-- 今年服务用户访问 -->
+				
+			</div>
+			
+			</div>
+			
+			
+			<!-- west -->
+			<div data-options="region:'west', collapsible:false,title:'今日累计应用访问统计',split:true"
+				style="width:420px;height: 611px;padding:0px;overflow: hidden;">
+				<div id="today_west_tt"  data-options="fit:true,border:false" style="width:420px;height:611px;"> 
+				<div title="按应用类型" data-options="iconCls:'icon-reload',closable:false"style="width: 100%;height: 100%;" >   
+				<div class="west_up" id="today_serviceType_west_up"style="width: 100%;height: 255px;">
+					<div class='total_container' id='today_pageTotal_container' style="width: 100%;height: 100%;"></div>
+				</div>
+				<div class="west_down" id="today_serviceType_west_down" style="width: 100%;height:255px;">
+					<table id="today_page_datagrid"></table>
+				</div></div>
+				
+				<div title="按供应商" data-options="iconCls:'icon-reload',closable:false" style="width: 100%;height: 100%;">   
+				<div class="west_up" id="today_bmodule_west_up"style="width: 100%;height: 255px;">
+					<div class='total_container'
+						id='today_bmodule_container'style="width: 100%;height: 100%;"></div>
+				</div>
+				<div class="west_down" id="today_bmodule_west_down" style="width: 100%;height:255px;">
+					<table id="today_bmodule_datagrid"></table>
+				</div></div>
+				
+				<div title="按用户类型" data-options="iconCls:'icon-reload',closable:false" style="width: 100%;height: 100%;">   
+				<div class="west_up" id="today_servicevisitor_west_up" style="width: 100%;height: 255px;">
+					<div class='total_container'
+						id='today_pagevisitor_container' style="width: 100%;height: 100%;"></div>
+				</div>
+				<div class="west_down" id="today_servicevisitor_west_down" style="width: 100%;height:255px;">
+					<table id="today_pagevisitor_datagrid"></table>
+				</div></div>
+				
+				</div>
+			</div>
+			
+			
+			
+			<!-- CENTER -->
+			<div data-options="region:'center', title:' 本月累计应用访问数统计',split:true"
+				style="width:420px;height: 611px;padding:0px;overflow: hidden;">
+				  <div id="thismoth_center_tt" data-options="fit:true,border:false" style="width:422px;height:611px;">   
+    <div title="按应用类型" data-options="iconCls:'icon-reload',closable:false" style="width: 100%;height: 100%;">   
+       <div class="center_up" id="thismoth_page_center_up" style="width: 100%;height: 255px;">
+					<div class='total_container'id='thismoth_page_container'style="width: 100%;height: 100%;"></div>
+				</div>
+				<div class="center_down" id="thismoth_page_center_down" style="width: 100%;height:255px;">
+					<table id="thismoth_page__datagrid"></table>
+				</div>
+				   
+    </div>   
+    <div title="按供应商" data-options="iconCls:'icon-reload',closable:false" style="width: 100%;height: 100%;">   
+       <div class="center_up" id="thismoth_bmodule_center_up" style="width: 100%;height: 255px;">
+					<div class='total_container'
+						id='thismoth_bmodule_container' style="width: 100%;height: 100%;"></div>
+				</div>
+				<div class="center_down" id="thismoth_bmodule_center_down" style="width: 100%;height:255px;">
+					<table id="thismoth_bmodule_datagrid"></table>
+				</div>
+				   
+    </div>   
+    <div title="按用户类型" data-options="iconCls:'icon-reload',closable:false" style="width: 100%;height: 100%;">   
+       <div class="center_up" id="thismoth_pageisitor_center_up" style="width: 100%;height: 255px;" >
+					<div class='total_container'
+						id='thismoth_pagevisitor_container' style="width: 100%;height: 100%;"></div>
+				</div>
+				<div class="center_down" id="thismoth_pagevisitor_center_down"  style="width: 100%;height:255px;">
+					<table id="thismoth_pagevisitor_datagrid"></table>
+				</div>
+				  
+    </div>   
+</div>   
+				  
+				
+			</div><!-- center -->
+			<div data-options="region:'south',split:true" style="text-align: center;width: 1280px;height:69px;background-image: url('/youedataAudite/img/footer.jpg');
+	position: relative;float: left;"></div>
+	</div>
+		</div>
+	<div id="audit_DetailDialog" title="详细记录"
+				style="width: 822px;height: 475px;position:absolute;"data-options="iconCls:'icon-save',resizable:true,modal:true">
+	    <table id='audit_Detail_datagrid'></table>
+			</div>
+		
+	 
+</body>
+</html>

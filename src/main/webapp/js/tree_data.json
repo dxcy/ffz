@@ -1,0 +1,59 @@
+[{    
+    "id": 1,    
+    "text": "服务管理 ",     
+    "state": "open " ,
+    "attributes":{    
+            "url":"./viewMenu/goServices.do"   
+               
+        }   
+    },
+    {    
+    "id": 2,    
+    "text": "用户管理",    
+    "state": "open " ,
+     "attributes":{    
+            "url":"./viewMenu/goadminService.do"          
+        }
+          
+    },
+     {    
+    "id": 3,    
+    "text": "数据管理 ", 
+         
+    "state": "open "  ,
+     "attributes":{    
+            "url":"./viewMenu/goydData.do"   
+              
+        }   
+    },
+     {    
+    "id": 4,    
+    "text": "图集管理 ", 
+         
+    "state": "open "  ,
+     "attributes":{    
+            "url":"./viewMenu/goatlas.do"   
+              
+        }   
+    },
+     {    
+    "id": 5,    
+    "text": "应用管理 ", 
+         
+    "state": "open "  ,
+     "attributes":{    
+            "url":"./viewMenu/goapp.do"   
+              
+        }   
+    },
+     {    
+    "id": 6,    
+    "text": "产品管理 ", 
+         
+    "state": "open "  ,
+     "attributes":{    
+            "url":"./viewMenu/goproduction.do"   
+              
+        }   
+    }
+    ]  

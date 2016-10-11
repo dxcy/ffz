@@ -1,0 +1,48 @@
+1.login
+日志记录格式:
+[type|uid|URL-in|URL-out|userType]
+用户类型英文标识	 用户类型	 用户类型代码
+userType=UTYPE_NORMAL   	普通用户 0	
+userType=UTYPE_DSP      	数据供应商	 200
+userType=UTYPE_INNO     	创新工厂用户	 100、101、102、103、104
+userType=UTYPE_TERMINAL 	终端用户 300
+
+2.数据下载
+type|uid|sid|URL-in|URL-out|SRV_TYPE|SRV_LEVEL
+
+
+ftp://riverplant:JIE2010@192.168.0.54:21/test_dp_log
+
+2. 登录页面
+
+http://www.youedata.com:80/user/loginpage
+
+//String url = "192.168.10.21";
+		//String username = "youedata_DP"; 
+		//String password = "YoueDataFTP4_Audi"; 
+		//FtpService ftp = new FtpService(port, url, username, password, null, templogsPath, true);
+		
+		
+		
+		login:  type|uid|URL-in|URL-out | uip | sessionid
+
+
+
+tokengrant: type|uid|sid|URL-in|URL-out
+
+tokengrantBys: type|uid|sid|URL-in|URL-out
+
+dataSearch: type|uid|sid|URL-in|URL-out
+
+datasearchinno: type|uid|sid|URL-in|URL-out
+
+datablockDownload: type|uid|sid|URL-in|URL-out|SRV_TYPE | SRV_LEVEL
+
+datavalide: type|uid|sid|URL-in|URL-out
+
+
+rout:  type| uip | sid | URL-in|URL-out
+
+var theid = encodeURI(encodeURI(id)); //中文及全角字符转码  
+
+URLDecoder.decode(thevcorigin, "UTF-8");// 后台解码，参数为(需解码的字符串，需要转成什么编码类型)

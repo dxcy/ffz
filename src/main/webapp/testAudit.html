@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>测试政务外网审计</title>
+  <link rel="stylesheet" href="">
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+var USERID = "";
+var USERNAME = "";
+var BEHAVETYPE = "01";
+var KEYWORD = "";
+var BEHAVEID = "cehui001";
+var BEHAVENAME = "测绘数据服务浏览查询";
+var BUSSTYPE = "02";
+var url = "http://59.255.48.22/webgis";
+//这里传入参数直接调用
+ WriteLog_1(USERID,USERNAME,BEHAVETYPE,KEYWORD,BEHAVEID,BEHAVENAME,BUSSTYPE,url);
+//写入操作日志，如果正确的花会返回后台返回的json，错误的话会返回error对象
+//调用后我已将json参数打印出来了 在浏览器debug中可以看到
+function WriteLog_1(USERID,USERNAME,BEHAVETYPE,KEYWORD,BEHAVEID,BEHAVENAME,BUSSTYPE,urlstr){
+
+  var Obj=new Object();
+  Obj.userid=USERID;
+  Obj.username=USERNAME;
+  Obj.behavetype=BEHAVETYPE;
+  if (KEYWORD!="") {
+    Obj.keyword=KEYWORD;
+  };
+  Obj.behaveid=BEHAVEID;
+  Obj.behavename=BEHAVENAME.trim();
+ 
+  Obj.busstype=BUSSTYPE;
+  urlstr=urlstr.trim();
+  if (urlstr==""||urlstr==undefined) {
+    var currurl="";//当前页面地址
+    currurl=window.location.href.split("?")[0];
+    Obj.url=currurl;
+  }
+  else{
+    Obj.url=urlstr;
+  }
+
+  var json=JSON.stringify(Obj);
+  console.log(json);
+ // var urls=location.protocol+"//"+location.host+"/AuditService/behave/SaveBahave";
+$.ajax({
+    url: "http://192.168.0.54:8080/auditManage/auditInfos/addAuditInfos.do",
+    type: "post",
+    data:{i:json},
+    async: false,
+    timeout:2000,
+    dataType: "json",
+    "Content-Type": "application/x-www-form-urlencoded",
+    success:function(a){
+
+        console.log(a);
+    },
+    error:function(e){
+      console.log(e);
+    }
+  });
+}
+</script>
+</html>

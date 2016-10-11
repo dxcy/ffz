@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login_Audite.html</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="js/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/anychart.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+$("a[name='sub']").click(function(){
+        var name=$("input[name='name']").val();
+        var pwd =$("input[name='passwprd']").val();
+        if(name=="" ||pwd=="" ){
+        alert("用户名或密码为空，请重新输入....");
+         $("#loginForm")[0].reset();
+        }else{
+        
+         $.ajax({
+                cache: true,
+                type: "POST",
+                url:"./ydVisiter/login.do",
+                data:$('#loginForm').serialize(),// 你的formid
+                async: false,
+                dataType: "json",
+                success : function(msg) {
+						console.log(msg );
+							if (msg && msg.success == true) {
+							 var expiresDate= new Date();
+								expiresDate.setTime(expiresDate.getTime() + (60 * 60 * 1000));
+							 $.cookie('init', 'init', { expires: expiresDate });
+							 $.cookie('username', msg.result.username, { expires: expiresDate });
+							  $.cookie('login_ip', msg.result.login_ip, { expires: expiresDate });
+							   $.cookie('login_time', msg.result.login_time, { expires: expiresDate });
+							     FMG.goindx();
+								
+								} else {
+								alert( "登录失败");
+								 $("#loginForm")[0].reset();
+							}
+						},
+						error : function(data) {
+						alert("获取登录失败");
+						 $("#loginForm")[0].reset();
+						}
+              
+            });//ajax
+        }//else
+        });//click
+         $("a[name='res']").click(function(){
+        $("#loginForm")[0].reset();
+       console.log("重置");
+        });//reset
+$("body").keydown(function() {
+    if (event.keyCode == "13") {//keyCode=13是回车键
+    console.log('按下回车键...');
+        $("a[name='sub']").click();
+    }
+});    
+        });
+        </script>
+  </head>
+  
+  <body >
+    <div class="Audite_login">
+    <div class="login_head"></div>
+    <div class="login_content">
+    <div class="login_content_left"></div><div class="login_content_right">
+    <form action="" method="post" id="loginForm" class="loginForm">
+
+ <input type="text" name="name" class="myname" placeholder="用户名"/></br></br></br>
+ <input type="password" name="passwprd" class="mypw" placeholder="密码"/></br></br></br>
+<a name="sub" style="float: left;height: 31px;margin-left: 5px;margin-right: 5px;" ><img src="./img/login_normal.png"
+							onmouseout="this.src='./img/login_normal.png'" onmouseover="this.src='./img/login_normal.png_s.png'"/></a>
+ 
+     
+    
+    
+	</form></div><!--login_content_right  -->
+    </div>
+    <div class="audit_footer" id="audit_footer" ></div>
+   </div>  <!-- Audite_login -->
+  </body>
+</html>

@@ -1,0 +1,611 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body { /*网页字体一般是12像素*/
+	margin: 0 auto; /*边距清0，自动的左右居中 */
+	width: 1260px; /*根据首页图片大小来决定*/
+
+	position: relative;
+	font-family: "宋体";
+}
+.Audite_login {
+	width: 1260px;
+	height: 768px;
+	margin:0 auto;
+	background-image: url('../img/login-Audite.png');
+	
+
+	position: absolute;
+}
+.login_head{
+	margin:0 auto;
+	width: 866px;
+	height: 100px;
+	background: url('../img/titleText.png') no-repeat 0px 45px;
+}
+.login_content {
+	width: 882px;
+	height: 403px;
+	margin:0 auto;
+	/*margin-left: 940px;*/
+	position: relative;
+	background: #63B9DF ;
+}
+.login_content_left{
+	width: 463px;
+	height: 355px;
+	background: url('../img/login_log.png') no-repeat 72px 5px;
+	float: left;
+}
+
+.login_content_right{
+	width: 386px;
+	height: 356px;
+	background: url('../img/login_form_right.png') no-repeat 72px 55px;
+	float: left;
+}
+.myname  
+    { 
+    width: 253px; height: 34px;float: left;margin-left: 5px; 
+   
+   
+    border-radius: 8px;                /* 圆角边框 */
+   
+    font-size: 14px;
+    text-indent: 1.5em;
+    line-height:20px;  
+    
+       background:url('../img/username.png') center left no-repeat;  
+    }  
+    .mypw  
+    { 
+    width: 253px; height: 34px;float: left;margin-left: 5px;
+    
+   
+    border-radius: 8px;                /* 圆角边框 */
+    
+    font-size: 14px;
+    text-indent: 1.5em;
+    line-height:20px;   
+       background:url('../img/passwd.png') center left no-repeat;   
+     } 
+.loginForm{
+	width: 306px;
+	height: 156px;
+	float: left;
+	margin-top: 130px;
+	margin-left: 95px;
+}
+header {
+	display: block;
+	margin-top: -10px;
+	height: 90px;
+	width: 1260px;
+	position: relative;
+	background: url('../img/titleText.png') no-repeat center center;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	font-family: "宋体";
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+a:hover {
+	color: #FB3822;
+}
+
+
+
+
+
+
+#audit_systembox {
+	width: 1260px;
+	height: 54px;
+	background-color: rgb(31,115,184);
+	position: relative;
+	margin: 0 auto;
+	
+}
+.audit_systembtn {
+	margin-left:150px;
+	width: 118px;
+	height: 54px;
+	position: absolute;
+	top: 0px;
+	
+	float: left;
+}
+.audit_usebtn {
+	width: 141px;
+	margin-left:268px;
+	height: 54px;
+	position: absolute;
+	top: 0px;
+	
+	float: left;
+}
+.audit_downbtn {
+	width: 149px;
+	margin-left:409px;
+	height: 54px;
+	position: absolute;
+	top: 0px;
+	
+	float: left;
+}
+.audit_managebtn {
+	width: 118px;
+	margin-left:672px;
+	height: 54px;
+	position: absolute;
+	top: 0px;
+	
+	float: left;
+}
+.audit_pagebtn {
+	width: 118px;
+	margin-left:554px;
+	height: 54px;
+	position: absolute;
+	top: 0px;
+	
+	float: left;
+}
+.audit_systembtn .audit_abtn  {
+	width: 100%;
+	height: 54px;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666666;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.audit_usebtn .audit_useabtn  {
+	width: 100%;
+	height: 54px;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666666;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.audit_managebtn .audit_manageabtn  {
+	width: 118px;
+	height: 54px;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666666;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.audit_pagebtn .audit_pageabtn  {
+	width: 118px;
+	height: 54px;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666666;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.audit_downbtn .audit_downabtn  {
+	width: 100%;
+	height: 54px;
+	display: block;
+	font-size: 15px;
+	font-weight: bold;
+	color: #666666;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.audit_systembtn .audit_abtn:hover {
+	color: #333333;
+	background-position: left bottom;
+}
+.audit_usebtn .audit_useabtn:hover {
+	color: #333333;
+	background-position: left bottom;
+}
+.audit_downbtn .audit_downabtn:hover {
+	color: #333333;
+	background-position: left bottom;
+}
+
+.audit_managebtn .audit_manageabtn:hover {
+	color: #333333;
+	background-position: left bottom;
+}
+
+.audit_pagebtn .audit_pageabtn:hover {
+	color: #333333;
+	background-position: left bottom;
+}
+
+.audit_menu {
+	width: 116px;
+	background-color: #ffffff;
+	opacity: 0.80;
+	position: absolute;
+	z-index: 100005;
+	display: none;
+}
+.audit_usemenu {
+	width: 141px;
+	background-color: #ffffff;
+	opacity: 0.80;
+	position: absolute;
+	z-index: 100005;
+	display: none;
+}
+
+.audit_downmenu {
+	width: 149px;
+	background-color: #ffffff;
+	opacity: 0.80;
+	position: absolute;
+	z-index: 100005;
+	display: none;
+}
+
+.audit_managemenu {
+	width: 118px;
+	background-color: #ffffff;
+	opacity: 0.80;
+	position: absolute;
+	z-index: 100005;
+	display: none;
+}
+
+.audit_pagemenu {
+	width: 118px;
+	background-color: #ffffff;
+	opacity: 0.80;
+	position: absolute;
+	z-index: 100005;
+	display: none;
+}
+
+.audit_menu dl {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+.audit_usemenu dl {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+.audit_downmenu dl {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.audit_managemenu dl {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.audit_pagemenu dl {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+.audit_menu a {
+	width: 100%;
+	display: block;
+	color: #666666;
+	border-bottom: #ACACAC dashed 1px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	background-position: 6px center;
+}
+.audit_usemenu a {
+	width: 100%;
+	display: block;
+	color: #666666;
+	border-bottom: #ACACAC dashed 1px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	background-position: 6px center;
+}
+.audit_downmenu a {
+	width: 100%;
+	display: block;
+	color: #666666;
+	border-bottom: #ACACAC dashed 1px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	background-position: 6px center;
+}
+.audit_managemenu a {
+	width: 100%;
+	display: block;
+	color: #666666;
+	border-bottom: #ACACAC dashed 1px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	background-position: 6px center;
+}
+
+.audit_pagemenu a {
+	width: 100%;
+	display: block;
+	color: #666666;
+	border-bottom: #ACACAC dashed 1px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	background-position: 6px center;
+}
+
+.audit_menu a:hover {
+	background-color: #E2E2E2;
+	color: #333333;
+	text-decoration: none;
+}
+.audit_usemenu a:hover {
+	background-color: #E2E2E2;
+	color: #333333;
+	text-decoration: none;
+}
+.audit_downmenu a:hover {
+	background-color: #E2E2E2;
+	color: #333333;
+	text-decoration: none;
+}
+
+.audit_managemenu a:hover {
+	background-color: #E2E2E2;
+	color: #333333;
+	text-decoration: none;
+}
+
+.audit_pagemenu a:hover {
+	background-color: #E2E2E2;
+	color: #333333;
+	text-decoration: none;
+}
+
+.audit_menu dt a {
+	font-weight: bold;
+	text-indent: 14px;
+}
+.audit_usemenu dt a {
+	font-weight: bold;
+	text-indent: 14px;
+}
+.audit_downmenu dt a {
+	font-weight: bold;
+	text-indent: 14px;
+}
+
+.audit_managemenu dt a {
+	font-weight: bold;
+	text-indent: 14px;
+}
+
+.audit_pagemenu dt a {
+	font-weight: bold;
+	text-indent: 14px;
+}
+
+
+.audit_menu dd a {
+	text-indent: 24px;
+	background-position: 16px center;
+}
+.audit_usemenu dd a {
+	text-indent: 24px;
+	background-position: 16px center;
+}
+
+.audit_downmenu dd a {
+	text-indent: 24px;
+	background-position: 16px center;
+}
+
+.audit_managemenu dd a {
+	text-indent: 24px;
+	background-position: 16px center;
+}
+.audit_pagemenu dd a {
+	text-indent: 24px;
+	background-position: 16px center;
+}
+.font_style {
+	font-weight: bold;
+}
+
+/*定义网站常用的字体样式*/
+.font_style_bold { /*定义粗体文字样式*/
+	font-weight: bold;
+	text-align: left;
+	color: #af4b28;
+	margin-left: 68px;
+}
+
+table {
+	position: relative;
+	text-align: left;
+	margin-left: 0px;
+	border: 10px;
+	border-color: red;
+}
+
+
+
+
+.head_button {
+	width: 1241px;
+	height: 50px;
+	margin-top: 1px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+h3 {
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	color: #fff;
+	margin-left: 13px;
+	vertical-align: middle;
+}
+
+
+/*
+.audite_body {
+	width: 1260px;
+	height: 454px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	position: relative;
+}
+*/
+.container {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	float: left;
+	
+}
+.totalCurrent{
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: relative;
+	background: red;
+}
+.audit_service_visiter_title {
+	width: 1280px;
+	height: 58px;
+	background-color: #F7F7F7;
+	font-family: "Microsoft YaHei" ;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top:5px;
+	margin-bottom: 10px;
+	position: relative;
+	text-align:center;
+	float: left;
+}
+
+.totalCurrentTitle{
+	width: 1280px;
+	height: 28px;
+	background-color: #F7F7F7;
+	font-family: "Microsoft YaHei" ;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top:0px;
+	margin-bottom: 10px;
+	position: relative;
+	text-align:center;
+	float: left;
+}
+.audit_service_table{
+	width: 40%;
+	height: 470px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	
+}
+
+.audit_service_title{
+	height: 28px;
+	text-align: left;
+	background-color: #F7F7F7;
+	font-family: "Microsoft YaHei" ;
+	font-size: 18px;
+	font-weight: normal;
+}
+.audit_service_title_left{
+	height: 28px;
+	width:60%;
+	text-align: center;
+	background-color: #F7F7F7;
+	font-family: "Microsoft YaHei" ;
+	font-size: 18px;
+	font-weight: normal;
+	float: left;
+}
+.audit_service_title_rigth{
+	height: 28px;
+	width:40%;
+	text-align: center;
+	background-color: #F7F7F7;
+	font-family: "Microsoft YaHei" ;
+	font-size: 18px;
+	font-weight: normal;
+	float: left;
+}
+
+
+/*新增样式start*/
+body .audit_main{
+	width:100%;
+	height:640px;
+	margin: 0 auto;
+	min-width: 1000px;
+}
+
+.audit_m_zxdt{
+	width: 50%;
+	height:470px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#audit_DetailDialog{
+height: 470px;position: relative;
+}
+
+#uZone{
+text-align: right;height: 54px;float:right;margin-top: 63px;margin-right: 5px;
+}
+
+.audit_m_cc{
+	width: 100%;
+	height: 640px;
+}
+
+.audit_ttabs{
+	width: 100%;
+}
+
+.audit_footer{
+	text-align: center;
+	width: 100%;
+	height:69px;
+	background-image: url('/youedataAudite/img/footer.jpg');
+	position: relative;
+	float: left;}
+/*新增样式end*/

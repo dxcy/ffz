@@ -1,0 +1,11 @@
+[
+  {    
+    "id": 1,    
+    "text": "定时调度 ",        
+    "state": "open " ,
+     "attributes":{    
+            "url":"./viewMenu/goYDQuartz.do"    
+               
+        }    
+    }
+    ]  

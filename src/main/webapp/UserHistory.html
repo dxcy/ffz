@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>用户历史数据</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+
+<link id="easyuiTheme_tab" rel="stylesheet"
+	href="css/themes/metro-blue/easyui.css" type="text/css"></link>
+<link rel="stylesheet" href="css/icon.css" type="text/css"></link>
+<link rel="stylesheet" href="css/Base.css" type="text/css"></link>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="js/easyui-lang-zh_CN.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/anychart.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+<script type="text/javascript" src="js/audiHead.js"></script>
+<script type="text/javascript" src="js/UserHistory.js"></script>
+<script type="text/javascript">
+$(function(){
+var username = $.cookie('username');
+if(username == null   ) {
+FMG.goLogin();
+}else{
+$("#uZone").html(' <h3>|  欢迎您:['+username+'] | <a href="javascript:void(0)" onclick="FMG.logOut();"> 注销  </a> |</h3> ');
+
+}}
+
+);
+</script>
+</head>
+
+<body>
+	<header><div id="uZone"></div> </header>
+	<div id="audit_systembox"></div>
+
+	<div class="audit_main audite_body" id="audite_body">
+	
+		<div id="cc" class="audit_m_cc layout-panel-center easyui-layout">
+			<div data-options="region:'north',title:'服务历史累计访问量统计',split:true"
+				style="height:70px;overflow: hidden;text-align: center;">
+				<form id="user_searchForm" action="" method="post">
+					<table class="tableForm datagrid-toolbar"
+						style="width: 100%;height: 100%">
+						<tr>
+						<th style="width: 242px;"></th>
+							<th ><b>查询时间段:</b>
+							</th>
+							<td><input name="DateStart" class="easyui-datetimebox"
+								editable="false" style="width: 155px" />至<input
+								name="DateEnd" class="easyui-datetimebox" editable="false"
+								style="width: 155px" /> <a href="javascript:void(0);"
+								class="easyui-linkbutton" onclick="searchUsersByConditions()"><b>查询</b>
+							</a> <a href="javascript:void(0);" class="easyui-linkbutton"
+								onclick="clearSearchUser()"><b>清空</b>
+							</a></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<div data-options="region:'center',title:' 按用户类型级别'"
+				style="padding:0px;overflow: hidden;">
+				<div class="center_up" id="center_up"style="width: 100%;height: 255px;">
+					<div class='history_container'
+						id='history_total_userType_container'style="width: 100%;height: 100%;"></div>
+				</div>
+				<div class="center_down" id="center_down"style="width: 100%;height:255px;">
+					<table id="history_total_userType_datagrid"></table>
+				</div>
+			</div><!-- center -->
+			<div data-options="region:'south',split:true" style="text-align: center;width: 100%;height:69px;background-image: url('/youedataAudite/img/footer.jpg');
+	position: relative;float: left;"></div>
+	</div></div>
+		<div id="audit_DetailDialog" title="详细记录"
+				style="width: 820px;height: 470px;position: relative;"data-options="iconCls:'icon-save',resizable:true,modal:true">
+	    <div id="userDetail_tt"  data-options="fit:true,border:false" style="width:100%;height:100%;"> 
+				<div title="访问服务" data-options="iconCls:'icon-reload',closable:false"style="width: 100%;height: 100%;" >   
+				<div class="userServiceDetail" id="userServiceDetail" style="width: 100%;height:100%;;">
+					<table id="userServiceDetail_datagrid"></table>
+				</div></div>
+				
+				<div title="下载数据" data-options="iconCls:'icon-reload',closable:false" style="width: 100%;height: 100%;">   
+				
+				<div class="userDataDetail" id="userDataDetail" style="width: 100%;height:100%;;">
+					<table id="userDataDetail_datagrid"></table>
+				</div></div>
+				
+				<div title="访问页面" data-options="iconCls:'icon-reload',closable:false" style="width: 100%;height: 100%;">   
+				<div class="userPageDetail" id="userPageDetail" style="width: 100%;height:100%;;">
+					<table id="userPageDetail_datagrid"></table>
+				</div></div>
+				
+				</div>
+			</div>
+		
+		
+</body>
+</html>
